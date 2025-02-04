@@ -8,7 +8,7 @@ Este repositório contém dois projetos de redes, implementando comunicação cl
 
 ```
 📦
-├── p1/                # Projeto 1: Sistema Cliente-Servidor de listagem de diretórios do cliente
+├── socket-directory-list/                # Projeto 1: Sistema Cliente-Servidor de listagem de diretórios do cliente
 ├── p2/                # Projeto 2: TO-DO
 ├── analise/           # Scripts para análise de desempenho
 └── README.md          # Este arquivo
@@ -16,7 +16,7 @@ Este repositório contém dois projetos de redes, implementando comunicação cl
 
 ---
 
-### **Projeto 1 (`p1/`)**
+### **Projeto 1 (`socket-directory-list/`)**
 #### Descrição
 Este projeto implementa um sistema cliente-servidor em C. A funcionalidade principal é transferir uma lista de nome de arquivos de um diretório especificado do cliente para o servidor, que salva os arquivos em um único arquivo consolidado.
 
@@ -92,17 +92,15 @@ clean:
 
 ---
 
-### Atualização do README
-
 #### **Compilação e Execução com Makefile**
 
 1. Certifique-se de ter o GNU Make e o compilador `gcc` instalados.
    - **Ubuntu**: `sudo apt install build-essential`
    - **Windows**: Use o **MinGW** ou outra distribuição compatível.
 
-2. Navegue até a pasta `p1`:
+2. Navegue até a pasta `socket-directory-list`:
    ```bash
-   cd p1
+   cd socket-directory-list
    ```
 
 3. Escolha a plataforma para compilação:
@@ -132,7 +130,7 @@ clean:
 
 ---
 
-### **Projeto 2 (`p2/`)**
+### **Projeto 2 (`socket-dns/`)**
 - **Status**: TO-DO
 - **Descrição**: Implementação futura a ser definida.
 
